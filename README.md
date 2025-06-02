@@ -1,6 +1,7 @@
 # revshell-py
 reverse shell generator for HTB boxes
 
+```
 $ ./rev.py -h    
 usage: rev.py [-h] [-l LHOST] [-p LPORT] [-b64] [--linux] [--windows]
 
@@ -13,3 +14,4 @@ options:
   -b64               Base64 encode the output
   --linux            Show Linux payloads only
   --windows          Show Windows payloads only
+```
